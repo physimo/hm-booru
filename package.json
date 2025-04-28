@@ -1,0 +1,40 @@
+{
+  "name": "h-manager-booru",
+  "version": "1.0.0",
+  "description": "Boorus add on for H-Manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "compile": "tsc"
+  },
+  "author": "physimo18",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^22.13.5",
+    "eslint": "^9.21.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsdoc": "^50.6.3",
+    "eslint-plugin-n": "^17.15.1",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.25.0"
+  },
+  "dependencies": {
+    "booru": "^2.7.0"
+  },
+  "h-manager": {
+    "name": "booru",
+    "version": "1.0.0",
+    "author": "Physimo18",
+    "description": "Boorus for H-Manager",
+    "api": "v1",
+    "domain": [],
+    "login": "NONE",
+    "dependencies": [
+      {
+        "name": "booru",
+        "version": "2.7.0"
+      }
+    ]
+  }
+}
